@@ -48,8 +48,8 @@
                     <div class="card-body text-center">
                         <a href="roeitrainer.php">
                             <img class="product-img img-responsive center-block" src='img/categories/roeitrainer.jpg'/>
-                        </a>
-                        <div class="card-title mb-3">Roeitrainer</div>
+                        </a><div class="card-title mb-3"><a href="roeitrainers.php" class="badge badge-warning">Roeitrainers</a></div>
+                        
                     </div>
 
                 </div>
@@ -60,7 +60,7 @@
                         <a href="crosstrainer.php">
                             <img class="product-img img-responsive center-block" src='img/categories/crosstrainer.jpg'/>
                         </a>
-                        <div class="card-title mb-3"><a href="crosstrainers.php" class="badge badge-warning">Crosstrainer</a></div>
+                        <div class="card-title mb-3"><a href="crosstrainers.php" class="badge badge-warning">Crosstrainers</a></div>
                         
                     </div>
 
@@ -72,7 +72,8 @@
                         <a href="hometrainer.php">
                             <img class="product-img img-responsive center-block" src='img/categories/hometrainer.jpg'/>
                         </a>
-                        <div class="card-title mb-3">Hometrainer</div>
+                        <div class="card-title mb-3"><a href="hometrainers.php" class="badge badge-warning">Hometrainers</a></div>
+                        
                     </div>
 
                 </div>
@@ -83,8 +84,8 @@
                         <a href="loopband.php">
                             <img class="product-img img-responsive center-block" src='img/categories/loopband.jpg'/>
                         </a>
-                        <div class="card-title mb-3">Loopband</div>
-                    </div>
+                        <div class="card-title mb-3"><a href="Loopbanden.php" class="badge badge-warning">Loopbanden</a></div>
+                        </div>
 
                 </div>
             </div>
@@ -93,6 +94,9 @@
     <hr>
 
 </div>
+
+
+
 <footer >
     <p class="clearfix pb-3  text-muted text-center">&copy;Afdeling software development Tinwerf 10, 2544 ED Den Haag</p>
 </footer>
