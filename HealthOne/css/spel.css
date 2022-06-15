@@ -1,0 +1,52 @@
+main{
+    text-align: center;
+    object-fit: cover;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    object-fit: cover;
+  }
+
+  .grid{
+    margin: auto;
+    width: 50%;
+    height: 630px;
+    max-width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .grid div{
+    width: 33.33%;
+    height: 33.33%;
+    border: 1.5px black solid;
+  }
+  .playerX{
+    background-image: url('../img/tic.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  .playerO{
+    background-image: url('../img/toe.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  @media(max-width: 1024px){
+    .grid{
+      width: 75%;
+    }
+  } @media(max-width: 575px){
+    .grid{
+      max-height: 375px;
+    }
+  } @media (max-width: 408px){
+    .grid{
+      width: 90%;
+    }
+  }
