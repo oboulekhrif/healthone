@@ -1,62 +1,83 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Home</title>
+</head>
 <body>
+<img class="product-img img-responsive center-block" src='img/logo.png'/>
 
-    <div class="container">
-       
-        <br>
-        <h4 class="card-title">Contactgegevens</h4>
-        <br>
-        <p class="card-header">Naam: Health One</p>
-        <p class="card-header">Locatie: Den Haag</p>
-        <p class="card-header">Openingstijden: </p>
-<p class="card-header bg-white">Maandag t/m vrijdag: 08:00 uur tot 20:00 uur </p>
-<p class="card-header bg-white">Zaterdag en Zondag: 10:00 uur tot 18:00 uur </p>
-        <p class="card-header">Telefoonnummer:<a href="tel:"></a></p>
-        <p class="card-header">E-Mail: <a href="mailto: healthone@gmail.com">healthone@gmail.com</a></p>
-        <br>
-        <h4 class="card-title">Geef ons feedback</h4>
-        <br>
-        <form method="post" action="">
-            <label>Naam</label>
-            <input type="text" name="naam"><br>
-            <label>Bericht</label>
-            <textarea name="bericht" id="bericht" cols="20" rows="3"></textarea>
-            <br><br>
-            <input type="submit" name="verzenden" value="Opslaan">
-        </form>
-        <?php
-        $db = new PDO("mysql:host=localhost;dbname=healthone"
-        ,"root");
-        echo "<table border='1'>";
-            if(isset($_POST['verzenden'])){
-                $naam = $_POST['naam'];
-                $bericht = $_POST['bericht'];
-                $query = $db->prepare("INSERT INTO comments(naam,bericht)
-                VALUES(:naam, :bericht)");
-                $query->bindParam("naam", $naam);
-                $query->bindParam("bericht", $bericht);
-                if($query->execute()){
-                    echo "goed";
-                    $query = $db->prepare("SELECT * FROM comments WHERE datumtijd");
-                $query->execute();
-                $result = $query->fetchAll(PDO::FETCH_ASSOC);
-                foreach($result as &$data){
-                    echo "<tr>";
-                    echo "<td>" . $data["naam"] . "---" .  "</td>";
-                    echo "<td>" . $data["bericht"] . "---" . "</td>";
-                    echo "<td>" . $data["datumtijd"] . "</td>";
-                    echo "</tr>";
-                }
-                }
-            }
-        ?>
-        <br>
-        <?php
-        include_once ('../Templates/defaults/footer.php');
-        ?>
+<main role="main">
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="index.php">Sportcenter</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="categories.php">sportapparaat</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">registreren</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " href="Contact.php">contact</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+      
+      <img class="img-responsive " src='img/healthone-wide.png'/> </div>
+      <h4>Sportcenter HealthOne</h4>
+    Tel: 06-333-999-22 <br>
+    Mail: info@healthone.com <br>
+    Adres: Gezondstraat 12, Den Haag
+    <hr>
+
+    </main>
+
+
+
+
+    
+
+  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+    Open modal
+  </button>
+<!-- The Modal -->
+<div class="modal" id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">Modal Heading</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+        Modal body..
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+      </div>
+
     </div>
+  </div>
+</div>
 
+    <footer >
+    <p class="clearfix pb-3  text-muted text-center">&copy;Afdeling software development Tinwerf 10, 2544 ED Den Haag</p>
+</footer>
 </body>
 </html>

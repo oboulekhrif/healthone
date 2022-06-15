@@ -19,7 +19,7 @@
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link" href="#">sportapparaat</a>
+        <a class="nav-link" href="categories.php">sportapparaat</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">registreren</a>
@@ -37,9 +37,8 @@
         
 <a href="index.php" class="badge badge-warning">Home</a>
 <a> / </a>
-<a href="categories.php" class="badge badge-warning">Categories</a>
-<a> / </a>
-<a href="index.php" class="badge badge-warning"> Crosstrainer</a>
+<a href="categories.php" class="badge text-dark">Categories</a>
+<a> 
 
 
 <div class="row gy-3 ">
