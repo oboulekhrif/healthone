@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
    
-    <title>Document</title>
+    <title>Roeitrainers</title>
 </head>
 <body>
 <img class="product-img img-responsive center-block" src='img/logo.png'/>
@@ -40,13 +40,13 @@
 <a> / </a>
 <a href="categories.php" class="badge badge-warning">Categories</a>
 <a> / </a>
-<a href="index.php" class="badge badge-warning"> Crosstrainer</a>
+<a href="index.php" class="badge badge-warning"> Roeitrainers</a>
     
 
       <div class="container">  <div class="row">
           <div class="col-md-4">
           <div class="card" style="width: 18rem;">
-  <img class="card-img-top" src="img/categories/crosstrainer/cr2.jpg" alt="Card image cap">
+  <img class="card-img-top" src="img/categories/roeitrainer/1.jpg" alt="Card image cap">
   <div class="card-body">
   <p class="card-text ">Crosstrainer - Focus <br> Fitness Fox 4</p>
    </div>
@@ -54,11 +54,19 @@
 </div></div>
           <div class="col-md-4">
           <div class="card" style="width: 18rem;">
-  <img class="card-img-top" src="img/categories/crosstrainer/cr6.jpg" alt="Card image cap">
+  <img class="card-img-top" src="img/categories/roeitrainer/2.jpg" alt="Card image cap">
   <div class="card-body">
   <p class="card-text ">Crosstrainer - Focus <br> Fitness Fox 4</p>
    </div>
 </div> </div>
+<div class="col-md-4">
+          <div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="img/categories/roeitrainer/3.png" alt="Card image cap">
+  <div class="card-body">
+  <p class="card-text ">Crosstrainer - Focus <br> Fitness Fox 4</p>
+   </div>
+</div> </div>
+
          
 
     </main>   

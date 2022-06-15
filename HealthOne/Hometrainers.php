@@ -46,7 +46,7 @@
       <div class="container">  <div class="row">
           <div class="col-md-4">
           <div class="card" style="width: 18rem;">
-  <img class="card-img-top" src="img/categories/hometrainer/nht.jpg" alt="Card image cap">
+  <img class="card-img-top" src="img/categories/hometrainer/1.jfif" alt="Card image cap">
   <div class="card-body">
   <p class="card-text ">Crosstrainer - Focus <br> Fitness Fox 4</p>
    </div>
@@ -54,14 +54,14 @@
 </div></div>
           <div class="col-md-4">
           <div class="card" style="width: 18rem;">
-  <img class="card-img-top" src="img/categories/hometrainer/rht.jpg" alt="Card image cap">
+  <img class="card-img-top" src="img/categories/hometrainer/2.jfif" alt="Card image cap">
   <div class="card-body">
   <p class="card-text ">Crosstrainer - Focus <br> Fitness Fox 4</p>
    </div>
 </div> </div>
           <div class="col-md-4">
           <div class="card" style="width: 18rem;">
-  <img class="card-img-top" src="img/categories/hometrainer/sfh.jpg" alt="Card image cap">
+  <img class="card-img-top" src="img/categories/hometrainer/3.jpg" alt="Card image cap">
   <div class="card-body">
   <p class="card-text ">Crosstrainer - Focus <br> Fitness Fox 4</p>
    </div>

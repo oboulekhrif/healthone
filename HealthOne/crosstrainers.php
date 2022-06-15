@@ -54,21 +54,20 @@
 </div></div>
           <div class="col-md-4">
           <div class="card" style="width: 18rem;">
-  <img class="card-img-top" src="img/categories/crosstrainer/cr6.jpg" alt="Card image cap">
+  <img class="card-img-top" src="img/categories/crosstrainer/4.jpg" alt="Card image cap">
   <div class="card-body">
   <p class="card-text ">Crosstrainer - Focus <br> Fitness Fox 4</p>
    </div>
 </div> </div>
-          <div class="col-md-4">
-            <h2>Heading</h2>
-            <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
-          </div>
-        </div>
-
-        <hr>
-
-      </div> <!-- /container -->
+<div class="col-md-4">
+          <div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="img/categories/crosstrainer/2.jpg" alt="Card image cap">
+  <div class="card-body">
+  <p class="card-text ">Crosstrainer - Focus <br> Fitness Fox 4</p>
+   </div>
+</div> </div>
+         
+         
 
     </main>   
     <footer >
