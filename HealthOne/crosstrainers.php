@@ -61,18 +61,19 @@
 
       <!-- Modal Header -->
       <div class="modal-header">
-        <h4 class="modal-title">Modal Heading</h4>
+        <h4 class="modal-title">Crosstrainer - Focus <br> Fitness Fox 1</h4>
+        
         <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
       </div>
 
       <!-- Modal body -->
       <div class="modal-body">
-        Modal body..
+        
+  <img class="card-img" src="img/categories/crosstrainer/cr2.jpg" alt="Card image cap">
       </div>
 
       <!-- Modal footer -->
       <div class="modal-footer">
-        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
       </div>
 
     </div>
@@ -98,7 +99,7 @@
 
       <!-- Modal Header -->
       <div class="modal-header">
-        <h4 class="modal-title">Modal Heading</h4>
+        <h4 class="modal-title">Crosstrainer - Focus <br> Fitness Fox 2</h4>
         <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
       </div>
 
@@ -124,7 +125,7 @@
   <div class="card-body">
   <p class="card-text ">Crosstrainer - Focus <br> Fitness Fox 3</p>
   
-  <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#myModal">
+  <button type="button1" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#myModal">
   See description
   </button>
 <!-- The Modal -->

@@ -53,30 +53,7 @@
   <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#myModal">
   See description
   </button>
-<!-- The Modal -->
-<div class="modal" id="myModal">
-  <div class="modal-dialog">
-    <div class="modal-content">
 
-      <!-- Modal Header -->
-      <div class="modal-header">
-        <h4 class="modal-title">Modal Heading</h4>
-        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-      </div>
-
-      <!-- Modal body -->
-      <div class="modal-body">
-        Modal body..
-      </div>
-
-      <!-- Modal footer -->
-      <div class="modal-footer">
-        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
-      </div>
-
-    </div>
-  </div>
-</div>
 
    </div>
    
@@ -90,31 +67,6 @@
   <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#myModal">
   See description
   </button>
-<!-- The Modal -->
-<div class="modal" id="myModal">
-  <div class="modal-dialog">
-    <div class="modal-content">
-
-      <!-- Modal Header -->
-      <div class="modal-header">
-        <h4 class="modal-title">Modal Heading</h4>
-        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-      </div>
-
-      <!-- Modal body -->
-      <div class="modal-body">
-        Modal body..
-      </div>
-
-      <!-- Modal footer -->
-      <div class="modal-footer">
-        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
-      </div>
-
-    </div>
-  </div>
-</div>
-
    </div>
 </div> </div>
 <div class="col-md-4">
@@ -131,17 +83,48 @@
   <div class="modal-dialog">
     <div class="modal-content">
 
-      <!-- Modal Header -->
+      <!-- Modal Header 1 -->
       <div class="modal-header">
-        <h4 class="modal-title">Modal Heading</h4>
+        <h4 class="modal-title">Roeitrainer - Focus <br> Fitness Fox 1</h4>
         <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
       </div>
 
-      <!-- Modal body -->
+      
+
+      <!-- Modal body 1 -->
       <div class="modal-body">
-        Modal body..
+        
+  <img class="rounded float-left" src="img/categories/roeitrainer/1.jpg" alt="Card image cap">
       </div>
 
+
+      
+      <!-- Modal Header 2 -->
+      <hr><div class="modal-header">
+        <h4 class="modal-title">Roeitrainer - Focus <br> Fitness Fox 2</h4>
+      </div>
+
+      
+
+      <!-- Modal body2 -->
+      <div class="modal-body">
+        
+  <img class="rounded float-left" src="img/categories/roeitrainer/2.jpg" alt="Card image cap">
+      </div>
+
+      <!-- Modal Header 3 -->
+      <hr><div class="modal-header">
+        <h4 class="modal-title">Roeitrainer - Focus <br> Fitness Fox 3</h4>
+      </div>
+
+      
+
+      <!-- Modal body3 -->
+      <div class="modal-body">
+        
+  <img class="rounded float-left" src="img/categories/roeitrainer/3.png" alt="Card image cap">
+      </div>
+      
       <!-- Modal footer -->
       <div class="modal-footer">
         <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
@@ -158,7 +141,7 @@
 
     </main>   
     <footer >
-    <p class="clearfix pb-3  text-muted text-center">&copy;Afdeling software development Tinwerf 10, 2544 ED Den Haag</p>
+    <hr><p class="clearfix pb-3  text-muted text-center">&copy;Afdeling software development Tinwerf 10, 2544 ED Den Haag</p>
 </footer> 
 </body>
 </html>
