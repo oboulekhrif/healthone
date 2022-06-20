@@ -45,7 +45,7 @@
             <div class="col-sm-4 col-md-3">
                 <div class="card">
                     <div class="card-body text-center">
-                        <a href="roeitrainer.php">
+                        <a href="roeitrainers.php">
                             <img class="product-img img-responsive center-block" src='img/categories/roeitrainer.jpg'/>
                         </a><div class="card-title mb-3"><a href="roeitrainers.php" class="badge badge-warning">Roeitrainers</a></div>
                         
@@ -56,7 +56,7 @@
             <div class="col-sm-4 col-md-3">
                 <div class="card">
                     <div class="card-body text-center">
-                        <a href="crosstrainer.php">
+                        <a href="crosstrainers.php">
                             <img class="product-img img-responsive center-block" src='img/categories/crosstrainer.jpg'/>
                         </a>
                         <div class="card-title mb-3"><a href="crosstrainers.php" class="badge badge-warning">Crosstrainers</a></div>
@@ -68,7 +68,7 @@
             <div class="col-sm-4 col-md-3">
                 <div class="card">
                     <div class="card-body text-center">
-                        <a href="hometrainer.php">
+                        <a href="hometrainers.php">
                             <img class="product-img img-responsive center-block" src='img/categories/hometrainer.jpg'/>
                         </a>
                         <div class="card-title mb-3"><a href="hometrainers.php" class="badge badge-warning">Hometrainers</a></div>
@@ -80,7 +80,7 @@
             <div class="col-sm-4 col-md-3">
                 <div class="card">
                     <div class="card-body text-center">
-                        <a href="loopband.php">
+                        <a href="loopbanden.php">
                             <img class="product-img img-responsive center-block" src='img/categories/loopband.jpg'/>
                         </a>
                         <div class="card-title mb-3"><a href="Loopbanden.php" class="badge badge-warning">Loopbanden</a></div>
